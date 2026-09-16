@@ -1,0 +1,1 @@
+const glow=document.querySelector('.cursor-glow');window.addEventListener('pointermove',e=>{glow.style.left=`${e.clientX}px`;glow.style.top=`${e.clientY}px`});document.getElementById('year').textContent=new Date().getFullYear();const orb=document.querySelector('.orb');window.addEventListener('scroll',()=>{if(orb){orb.style.transform=`translateY(${window.scrollY*.025}px)`}});
