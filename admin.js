@@ -1,4 +1,4 @@
-const CONFIG={SUPABASE_URL:'YOUR_SUPABASE_URL',SUPABASE_PUBLISHABLE_KEY:'YOUR_SUPABASE_PUBLISHABLE_KEY',ADMIN_EMAIL:'admin@sushian.com'};
+const CONFIG={SUPABASE_URL:'https://rywywtmvzoftdcoauooq.supabase.co',SUPABASE_PUBLISHABLE_KEY:'sb_publishable_bgMGgJqATu2TOAbAqbOdZA_Rf0risAH',ADMIN_EMAIL:'admin@sushian.com'};
 const ready=CONFIG.SUPABASE_URL.startsWith('http')&&!CONFIG.SUPABASE_URL.includes('YOUR_')&&!CONFIG.SUPABASE_PUBLISHABLE_KEY.includes('YOUR_');
 const loginView=document.getElementById('loginView'),adminView=document.getElementById('adminView'),loginForm=document.getElementById('loginForm'),beatForm=document.getElementById('beatForm'),loginMessage=document.getElementById('loginMessage'),uploadMessage=document.getElementById('uploadMessage');
 let supabaseClient=null;
